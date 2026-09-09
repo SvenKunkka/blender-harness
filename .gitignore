@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Env / secrets
+.env
+*.local
+
+# Runtime data
+data/
+logs/
+*.log
+
+# Node
+node_modules/
+web_ui/dist/
+web_ui/.vite/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Blender artifacts
+*.blend1
+*.blend2
+dist/*.zip

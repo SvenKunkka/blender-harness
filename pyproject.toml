@@ -1,0 +1,15 @@
+[project]
+name = "blender-harness"
+version = "0.1.0"
+description = "AI-native Blender Harness — natural-language scene editing with structured tools, vision feedback and history/undo."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.setuptools]
+packages = ["harness_server"]
