@@ -1,3 +1,7 @@
+<!-- SVENKUNKKA-README-NAV:BEGIN -->
+[中文项目说明](#project-overview-zh) · [English overview](#project-overview-en) · [维护者 X / Maintainer on X](https://x.com/Svenu1s5)
+<!-- SVENKUNKKA-README-NAV:END -->
+
 # Blender Harness
 
 **AI-native Blender harness — natural-language 3D editing with structured tools,
@@ -234,3 +238,30 @@ Python executor, and parity between server tool registry and add-on handlers.
 ## License
 
 MIT — see `LICENSE`.
+
+
+---
+
+<!-- SVENKUNKKA-PROJECT-INFO:BEGIN -->
+
+<a id="project-overview-zh"></a>
+## 中文项目说明
+
+面向 Blender 的自然语言三维编辑框架，连接插件、FastAPI 服务与网页界面，通过场景读取、结构化工具、截图反馈和历史检查点组织建模过程。
+
+**使用入口：** 运行 `./setup.sh` 并配置 `.env`，以 `.venv/bin/python -m harness_server` 启动后端；在 Blender 安装 `dist/blender_harness_addon.zip`，网页开发入口位于 `web_ui/`。
+
+**范围说明：** 需要 Blender 与模型服务；视觉复核需可用的视觉模型，原始 Python 执行默认关闭。几何与截图反馈不等于实体产品工程验收。
+
+<a id="project-overview-en"></a>
+## English project overview
+
+A natural-language 3D editing framework for Blender, connecting an add-on, a FastAPI server and a web interface through scene inspection, structured tools, screenshot feedback and historical checkpoints.
+
+**Getting started:** Run `./setup.sh`, configure `.env`, and start the backend with `.venv/bin/python -m harness_server`. Install `dist/blender_harness_addon.zip` in Blender; the web development interface is in `web_ui/`.
+
+**Scope:** Blender and a model service are required. Visual review needs an available vision model, and raw Python execution is disabled by default. Geometry and screenshot feedback are not physical-product engineering acceptance.
+
+**仓库维护者 / Repository maintainer:** [SvenKunkka](https://github.com/SvenKunkka) · [X / Twitter](https://x.com/Svenu1s5)
+
+<!-- SVENKUNKKA-PROJECT-INFO:END -->
